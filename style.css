@@ -46,14 +46,31 @@ body{
     align-items: center;
 }
 
+.Introduction:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
 .Introduction img {
     width: 250px;
     max-width: 100%;
 }
 
-.Introduction-text {
+.Introduction article {
     flex: 1;
     min-width: 300px;
     text-align: justify;
     padding: 10px;
+}
+
+
+#Intro-Title{
+    font-weight: bold;
+}
+
+.Introduction:hover,
+.Introduction:hover article,
+.Introduction:hover #Intro-Title {
+    background-color: deeppink;
+    color: white;
 }
