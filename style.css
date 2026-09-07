@@ -2,9 +2,17 @@
     background-color: white;
 }
 
+body{
+    background: linear-gradient(135deg, #ffffff, #fff5f8); 
+}
+
 #headerIndex{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-evenly;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ffffff, #fff5f8);
+    line-height: 50%;
 }
 .navBar{
     display:flex;
@@ -16,6 +24,7 @@
     background-color: purple;
     height: 10vw;
     width: auto;
+    margin-bottom: 10px;
 }
 
 .navBar > a{
@@ -29,4 +38,22 @@
 .navBar >a:hover{
     transform: scale(1.10);
     color: pink;
+}
+.Introduction {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.Introduction img {
+    width: 250px;
+    max-width: 100%;
+}
+
+.Introduction-text {
+    flex: 1;
+    min-width: 300px;
+    text-align: justify;
+    padding: 10px;
 }
