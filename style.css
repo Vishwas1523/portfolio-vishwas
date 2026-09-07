@@ -13,6 +13,12 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #ffffff, #fff5f8);
     line-height: 50%;
+    padding: 190px;
+}
+
+#headerIndex h1:hover, #headerIndex h2:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 .navBar{
     display:flex;
@@ -22,7 +28,7 @@ body{
     align-content: center;
     flex-wrap: wrap;
     background-color: purple;
-    height: 10vw;
+    height: 8vw;
     width: auto;
     margin-bottom: 10px;
 }
