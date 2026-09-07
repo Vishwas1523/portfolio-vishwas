@@ -1,3 +1,32 @@
 *{
-    background-color: red;
+    background-color: white;
+}
+
+#headerIndex{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navBar{
+    display:flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: purple;
+    height: 10vw;
+    width: auto;
+}
+
+.navBar > a{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+}
+
+.navBar >a:hover{
+    transform: scale(1.10);
+    color: pink;
 }
