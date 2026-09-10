@@ -68,6 +68,7 @@ body{
     transition: 0.3s;
     color: deeppink;
 }
+
 .Introduction {
     display: flex;
     flex-wrap: wrap;
@@ -100,6 +101,42 @@ body{
 .Introduction:hover,
 .Introduction:hover article,
 .Introduction:hover #Intro-Title {
+    background-color: deeppink;
+    color: white;
+}
+
+.Skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+.Skills:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+.Skills img {
+    width: 250px;
+    max-width: 100%;
+}
+
+.Skills article {
+    flex: 1;
+    min-width: 300px;
+    text-align: justify;
+    padding: 10px;
+}
+
+#Skill-Title{
+    font-weight: bold;
+}
+
+.Skills:hover,
+.Skills:hover article,
+.Skills:hover #Skill-Title {
     background-color: deeppink;
     color: white;
 }
