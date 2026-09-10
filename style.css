@@ -68,6 +68,10 @@ body{
     transform: scale(1.10);
     transition: 0.3s;
     color: deeppink;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: red;
+    text-underline-offset: 5px;
 }
 
 .Section {
@@ -263,7 +267,6 @@ body{
     background-color: deeppink;
     color: white;
     border-color: deeppink;
-
     transform: scale(1.10);
     box-shadow: 0.05rem 0.05rem 10px 0.05rem rgb(164, 23, 164);
 }
