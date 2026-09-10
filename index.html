@@ -16,7 +16,7 @@
             <a href="index.html">Home</a>
             <a href="#about">About</a>
             <a href="#skill">Skills</a>
-            <a href="project.html">Projects</a>
+            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
 
@@ -60,7 +60,89 @@
         </article>
     </section>
 
+    <!----------------------- Projects ------------------->
+    <section class="project-section" id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
 
+        <!---- Project 1 ----->    
+        <article class="project-card">
+            <h3 class="project-title">STM32 Drivers</h3>
+            <p class="project-content">
+                Developed reusable peripheral drivers for the STM32 Nucleo-F446RE
+                entirely in C without using the STM32 HAL. Implemented register-level
+                drivers for GPIO, RCC, NVIC, UART, SPI, I2C, DMA, ADC, timers, PWM,
+                and input capture.
+            </p>
+
+            <p class="project-content">
+                Worked directly with STM32 reference manuals and datasheets to
+                configure peripherals and understand the underlying hardware.
+            </p>
+
+            <div class="project-tech">
+                <span style="font-weight: bold;">Tech used:</span>
+                <span>C,</span>
+                <span>STM32,</span>
+                <span>Bare Metal Programming,</span>
+                <span>DMA,</span>
+                <span>Timers,</span>
+                <span>Communication Protocols</span>
+            </div>
+        </article>
+
+        <!---- Project 2 ----->   
+    <article class="project-card">
+    <h3 class="project-title">STM32 Data Acquisition System</h3>
+    <p class="project-content">
+        Developed a high-throughput data acquisition system for the STM32 Nucleo-F446RE
+        using bare-metal C and a custom peripheral library. Configured timer-triggered
+        ADC sampling with DMA and implemented a ping-pong buffer scheme for continuous
+        data acquisition without blocking the CPU.
+    </p>
+    <p class="project-content">
+        Implemented DMA-based UART transmission to efficiently transfer acquired data
+        while the CPU processes the alternate buffer, with custom drivers and reusable
+        functions developed specifically for the system.
+    </p>
+    <div class="project-tech">
+        <span style="font-weight: bold;">Tech used:</span>
+        <span>C,</span>
+        <span>STM32,</span>
+        <span>Bare Metal Programming,</span>
+        <span>ADC,</span>
+        <span>DMA,</span>
+        <span>Timers,</span>
+        <span>UART</span>
+    </div>
+</article>
+
+    <!---- Project 3 -->
+    <article class="project-card">
+    <h3 class="project-title">Automated Solar Panel Cleaner</h3>
+    <p class="project-content">
+        Designed and developed an automated solar panel cleaning system using a
+        motor-driven mechanism to move a cleaning assembly across the panel surface.
+        Implemented embedded control logic for automated movement and coordinated
+        motor operation with the cleaning mechanism.
+    </p>
+    <p class="project-content">
+        Developed the system with a focus on reliable mechanical movement, repeatable
+        cleaning cycles, and embedded control, integrating the motor, belt-driven
+        mechanism, and control electronics into a single automated system.
+    </p>
+    <div class="project-tech">
+        <span style="font-weight: bold;">Tech used:</span>
+        <span>C/C++,</span>
+        <span>STM32,</span>
+        <span>Embedded Systems,</span>
+        <span>Stepper Motor,</span>
+        <span>Motor Control,</span>
+        <span>GT2 Belt Drive</span>
+    </div>
+</article>
+                </div>
+        </section>
     </main>
     <footer>
         

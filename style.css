@@ -81,7 +81,7 @@ body{
 }
 
 .Section:hover{
-    transform: scale(1.02);
+    transform: translateY(-5px);
     transition: 0.3s;
     box-shadow: 0.05rem 0.05rem 10px 0.05rem rgb(164, 23, 164);
 }
@@ -109,3 +109,42 @@ body{
     color: white;
 }
 
+.project-section{
+    padding: 10px;
+    margin: 20px;
+}
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.project-section h2{
+    text-align: center;
+}
+
+.project-card{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: thin solid rgba(21, 21, 21, 0.33);
+    border-radius: 25px;
+    margin: 20px;
+    gap: 10px;
+}
+
+.project-card p{
+    margin: 0;
+    text-align: justify;
+}
+
+.project-card:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+    box-shadow: 0.05rem 0.05rem 10px 0.05rem rgb(164, 23, 164);    
+}
+
+.project-tech{
+    text-align: justify;
+}
