@@ -69,7 +69,7 @@ body{
     color: deeppink;
 }
 
-.Introduction {
+.Section {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -77,66 +77,31 @@ body{
     padding: 10px;
 }
 
-.Introduction:hover{
+.Section:hover{
     transform: scale(1.02);
     transition: 0.3s;
 }
 
-.Introduction img {
+.Section img {
     width: 250px;
     max-width: 100%;
 }
 
-.Introduction article {
+.Section article {
     flex: 1;
     min-width: 300px;
     text-align: justify;
     padding: 10px;
 }
 
-#Intro-Title{
+#Section-Title{
     font-weight: bold;
 }
 
-.Introduction:hover,
-.Introduction:hover article,
-.Introduction:hover #Intro-Title {
+.Section:hover,
+.Section:hover article,
+.Section:hover #Section-Title {
     background-color: deeppink;
     color: white;
 }
 
-.Skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    align-items: center;
-    padding: 10px;
-}
-
-.Skills:hover{
-    transform: scale(1.02);
-    transition: 0.3s;
-}
-
-.Skills img {
-    width: 250px;
-    max-width: 100%;
-}
-
-.Skills article {
-    flex: 1;
-    min-width: 300px;
-    text-align: justify;
-    padding: 10px;
-}
-
-#Skill-Title{
-    font-weight: bold;
-}
-
-.Skills:hover,
-.Skills:hover article,
-.Skills:hover #Skill-Title {
-    background-color: deeppink;
-    color: white;
-}
