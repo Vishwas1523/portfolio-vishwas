@@ -1,9 +1,9 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
-    background: linear-gradient(135deg, #ffffff, #fff5f8); 
+body {
+    background: linear-gradient(135deg, #ffffff, #fff5f8);
 }
 
 #headerIndex {
@@ -43,8 +43,8 @@ body{
     }
 }
 
-.navBar{
-    display:flex;
+.navBar {
+    display: flex;
     gap: 20px;
     flex-direction: row;
     justify-content: space-evenly;
@@ -56,7 +56,7 @@ body{
     margin-bottom: 10px;
 }
 
-.navBar > a{
+.navBar>a {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
@@ -64,7 +64,7 @@ body{
     color: white;
 }
 
-.navBar >a:hover{
+.navBar>a:hover {
     transform: scale(1.10);
     transition: 0.3s;
     color: deeppink;
@@ -85,7 +85,7 @@ body{
     margin: 50px 300px;
 }
 
-.Section:hover{
+.Section:hover {
     transform: translateY(-5px);
     transition: 0.3s;
     box-shadow: 0.05rem 0.05rem 10px 0.05rem rgb(164, 23, 164);
@@ -103,7 +103,7 @@ body{
     padding: 10px;
 }
 
-#Section-Title{
+#Section-Title {
     font-weight: bold;
 }
 
@@ -114,23 +114,23 @@ body{
     color: white;
 }
 
-.project-section{
+.project-section {
     padding: 10px;
     margin: 20px;
 }
 
-.project-grid{
+.project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.project-section h2{
+.project-section h2 {
     text-align: center;
     text-decoration: underline;
 }
 
-.project-card{
-    display:flex;
+.project-card {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 20px;
@@ -140,24 +140,24 @@ body{
     gap: 10px;
 }
 
-.project-card p{
+.project-card p {
     margin: 0;
     text-align: justify;
 }
 
-.project-card:hover{
+.project-card:hover {
     transform: translateY(-5px);
     transition: 0.3s;
     box-shadow: 0.05rem 0.05rem 10px 0.05rem rgb(164, 23, 164);
     background-color: deeppink;
-    color: white;    
+    color: white;
 }
 
-.project-tech{
+.project-tech {
     text-align: justify;
 }
 
-.project-grid a{
+.project-grid a {
     text-decoration: none;
     color: black;
 }
@@ -235,6 +235,7 @@ body{
         gap: 10px;
     }
 }
+
 .resume-container {
     display: flex;
     justify-content: center;
